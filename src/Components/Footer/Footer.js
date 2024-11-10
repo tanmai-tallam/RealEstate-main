@@ -1,13 +1,18 @@
-import React from "react";
-import "./Footer.css";
+import React from 'react';
+import './Footer.css';
 
-const Footer = () => {
+const Footer = (props) => {
+    let myStyle = {
+        color: props.mode === 'dark' ? 'white' : 'black',
+        backgroundColor: props.mode === 'dark' ? 'black' : 'white',
+      };
   return (
-    <section className="f-wrapper">
+    <div>
+      <section className="f-wrapper" style={myStyle}>
       <div className="paddings innerWidth flexCenter f-container">
         {/* left side */}
         <div className="flexColStart f-left">
-          <img src="./logo.jpg" alt="" width={120} />
+          <img src="./logo1.jpeg" alt="" width={80} />
 
           <span className="secondaryText">
             Our vision is to help you by providing you the best properties
@@ -28,7 +33,8 @@ const Footer = () => {
         </div>
       </div>
     </section>
-  );
-};
+    </div>
+  )
+}
 
-export default Footer;
+export default Footer

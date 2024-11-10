@@ -1,8 +1,6 @@
 .App {
-  position: relative;
-  overflow-x: clip;
+    padding-top: 90px;  /* Adjust this value based on your header height */
+    position: relative;
+    overflow-x: clip;
 }
-.App > :nth-child(1) {
-  background-color: black;
-  position: relative;
-}
+  

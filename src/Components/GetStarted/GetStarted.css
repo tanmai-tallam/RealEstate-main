@@ -1,24 +1,24 @@
 .inner-container {
-  gap: 1.5rem;
-  background-color: rgb(33, 33, 152);
-  padding: 2rem;
-  border-radius: 20px;
-  border: 6px solid rgb(107, 107, 195);
-  text-align: center;
-}
-
-.inner-container .primaryText {
-  color: aliceblue;
-  font-weight: 600;
-}
-
-.inner-container .secondaryText {
-  color: rgb(222, 221, 221);
-}
-
-.inner-container .button {
-  background: blue;
-  border: 2px solid white;
-  box-shadow: var(--shadow);
-  border-radius: 10px;
-}
+    gap: 1.5rem;
+    background-color: rgb(33, 33, 152);
+    padding: 2rem;
+    border-radius: 20px;
+    border: 6px solid rgb(107, 107, 195);
+    text-align: center;
+  }
+  
+  .inner-container .primaryText {
+    color: aliceblue;
+    font-weight: 600;
+  }
+  
+  .inner-container .secondaryText {
+    color: rgb(222, 221, 221);
+  }
+  
+  .inner-container .button {
+    background: blue;
+    border: 2px solid white;
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+  }

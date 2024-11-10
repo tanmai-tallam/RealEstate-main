@@ -1,7 +1,18 @@
+.c-wrapper{
+    background-color: black;
+}
 .c-container {
-  justify-content: space-around;
-  gap: 1rem;
+    justify-content: space-around;
+    gap: 1rem;
 }
 .c-container > img {
-  width: 9rem;
+    width: 9rem;
+}
+.c-trust{
+    font-weight: bold;
+    font-size:1.3rem;
+    padding: 0px;
+    margin:0px;
+    color: #848484;
+    text-transform: uppercase; 
 }
